@@ -1,0 +1,101 @@
+        .container1 {
+            margin: 0;
+            padding: 30px;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+        }
+        
+        .paper {
+            width: 90%;
+            max-width: 900px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        
+        .container1 {
+            display: flex;
+            align-items: flex-start;
+            white-space: nowrap; /* Prevent line breaks */
+        }
+        
+        .left-div, .right-div {
+            display: inline-block;
+        }
+
+        .left-div {
+            width: 80%; 
+        }
+
+        .right-div{
+            width: 20%; 
+            padding-top: 30px;
+            padding-left: 20px;
+        }
+
+        .dropzone {
+            width: 200px;
+            height: 100px;
+            border: 1px solid #dbdada;
+            background-color: #f4f4f4;
+            border-radius: 3px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+            text-align: center;
+            font-family: "Inter", Arial, Helvetica, sans-serif;
+            color: #999;
+            position: relative; /* Add this */
+        }
+
+        .upload-input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100px;
+            opacity: 0;
+        }
+        
+        .uploaded-image {
+            max-width: 100%;
+            max-height: 100%;
+            max-width: 200px;
+            max-height: 200px;
+            top: 0; /* Add this */
+            left: 0; /* Add this */
+            display: none;
+        }
+
+        /* Custom CSS to adjust cell height */
+        .smaller-cells {
+            padding: 4px 8px; /* Adjust the padding as needed */
+            font-size: 14px; /* Adjust the font size as needed */
+            line-height: 1; /* Adjust the line-height as needed */
+        }
+
+        /* Custom CSS to change the size of the placeholder text */
+        .form-control::placeholder {
+            font-size: 13px; /* Adjust the font size as needed */
+            /* You can also add other styles, such as color and font-family */
+            color: #999;
+            font-family: Arial, sans-serif;
+        }
+
+        .link-title {
+            display: block; /* Ensures the link takes up the full width */
+            font-size: 24px; /* Adjust the font size as needed */
+            color: #252525; /* Adjust the color as needed */
+            text-decoration: none; /* Remove underline from the link */
+            margin-bottom: 10px; /* Add spacing at the bottom */
+        }
+
+        .link-title:hover {
+            color: darkgreen;
+        }
+          
+  
+    
